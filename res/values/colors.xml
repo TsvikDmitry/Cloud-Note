@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="selected_button_background">#fffeaa0c</color>
+    <color name="blue">#00c0ff</color>
+    <color name="SelectionColor">#fffeaa0c</color>
+    <color name="Grey2">#757575</color>
+    <color name="Grey3">#575757</color>
+    <color name="Grey4">#9bd056</color>
+    <color name="Grey5">#434343</color>
+  	<color name="transp2">#3364aeaf</color>
+  	<color name="transp3">#33546ed0</color>
+  	<color name="transp0">#800dced5</color>
+  	<color name="transp1">#26ffffff</color>
+  	
+  	
+  	
+    <color name="Grey">#434343</color>
+    <color name="Grin">#9bd056</color>
+    
+    <color name="whiteGrey">#dddddd</color>
+    <color name="black">#000000</color>
+
+</resources>

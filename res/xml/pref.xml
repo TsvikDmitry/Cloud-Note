@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/pref_user" >
+        <CheckBoxPreference
+            android:key="close_user"
+            android:summary="@string/close_user"
+            android:title="@string/close" >
+        </CheckBoxPreference>
+
+        <EditTextPreference
+            android:key="address"
+            android:summary="Address for notifications"
+            android:title="Address" >
+        </EditTextPreference>
+
+        <ListPreference
+            android:dialogMessage="фывфв"
+            android:dialogTitle="фывфыв"
+            android:key="q3"
+            android:negativeButtonText="цуцу"
+            android:positiveButtonText="цуцуц"
+            android:summary="фывфы"
+            android:title="ыфвфыв" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_prorgams" >
+        <Preference
+            android:key="user"
+            android:summary="sssss"
+            android:title="sdsdssssss" />
+
+     
+    </PreferenceCategory>
+
+</PreferenceScreen>

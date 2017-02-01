@@ -1,0 +1,35 @@
+1. при повороте экрана, открывается всегда активити по умолчанию
+ решение: запомниать последнюю активити
+
+2. при авторизации, работает свайп с лева на право
+3. при сворачивании программы, во фрагменте дестроир сохранить полседний открвшийся фрагмент 
+
+
+    <LinearLayout
+        android:id="@+id/drawer_layout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/but_grin_3"
+        android:focusable="true"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/cold_notes" />
+
+        <TextView
+            android:id="@+id/drawer_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center_vertical"
+            android:text="ewrw"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+    </LinearLayout>}

@@ -1,0 +1,119 @@
+
+<!-- A DrawerLayout is intended to be used as the top-level content view using match_parent for both width and height to consume the full space available. -->
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Grey5" >
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/Grey5" >
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_drawer"
+        android:layout_width="240dp"
+        android:layout_height="fill_parent"
+        android:layout_gravity="start"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent" >
+
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:background="#636161"
+            android:dividerHeight="0dp"
+            android:orientation="vertical" >
+
+            <ScrollView
+                android:id="@+id/scrollView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TableLayout
+                    android:id="@+id/table_drawer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+                </TableLayout>
+            </ScrollView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/button1"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="5dp"
+            android:background="#636161"
+            android:drawableLeft="@drawable/icon_settings"
+            android:gravity="left|center_vertical"
+            android:orientation="vertical"
+            android:text="  Настройки"
+            android:textColor="#ffffff" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cold_line_hor"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal" >
+
+                <ImageButton
+                    android:id="@+id/button_note_add_dw"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/selector"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:minHeight="20dp"
+                    android:src="@drawable/cold_note_add"
+                    android:textColor="#ffffff" />
+
+                <ImageButton
+                    android:id="@+id/button_task_add_dw"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/selector"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:minHeight="20dp"
+                    android:src="@drawable/cold_task_add"
+                    android:textColor="#ffffff" />
+
+                <ImageButton
+                    android:id="@+id/button_list_add_dw"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/selector"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:minHeight="20dp"
+                    android:src="@drawable/cold_list_add"
+                    android:textColor="#ffffff" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+</android.support.v4.widget.DrawerLayout>
